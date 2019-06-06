@@ -1,0 +1,21 @@
+@import '../styles/variables.scss';
+
+.text {
+  color: $color-secondary;
+}
+
+.content {
+  font-size: 1.3rem;
+  margin-top: 3rem;
+  color: $color-secondary;
+}
+
+.link {
+  text-decoration: none;
+  color: $color-tertiary;
+  cursor: pointer;
+
+  &:hover {
+    color: $color-secondary;
+  }
+}

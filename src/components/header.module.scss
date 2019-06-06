@@ -1,0 +1,34 @@
+@import '../styles/variables.scss';
+
+.header {
+  padding: 1rem 0 3rem;
+}
+
+.title {
+  color: $color-secondary;
+  font-size: 3rem;
+  text-decoration: none;
+}
+
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+  border-bottom: 1px solid $color-secondary;
+}
+
+.nav-item {
+  color: $color-nav;
+  font-size: 1.25rem;
+  margin-right: 1.3rem;
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  color: $color-nav-hover;
+}
+
+.active-nav-item {
+  color: $color-secondary;
+}

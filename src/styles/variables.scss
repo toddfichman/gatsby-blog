@@ -1,0 +1,23 @@
+// $color-primary: #edf5e1;
+// $color-secondary: #BCABAE;
+// $color-tertiary: #716969;
+
+// $color-nav: #2D2E2E;
+// $color-nav-hover: lighten( $color-nav, 10% );
+// $color-nav-active: darken( $color-nav, 10% );
+
+// $color-blog-post: #716969;
+// $color-blog-hover: lighten( $color-blog-post, 10% );
+// $color-blog-active: darken( $color-blog-post, 10% );
+
+$color-primary: #4abdac;
+$color-secondary: #dfdce3;
+$color-tertiary: #2E8EC1;
+
+$color-nav: $color-tertiary;
+$color-nav-hover: #dfdce3;
+// $color-nav-active: darken( $color-nav, 10% );
+
+$color-blog-post: $color-tertiary;
+$color-blog-hover: lighten( $color-blog-post, 10% );
+$color-blog-active: darken( $color-blog-post, 10% );
